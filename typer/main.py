@@ -69,7 +69,7 @@ try:
 except ImportError:
     import asyncio
 
-    anyio = None  # type: ignore
+    anyio = None
 
     def run_as_sync(coroutine: Coroutine[Any, Any, Any]) -> Any:
         return asyncio.run(coroutine)

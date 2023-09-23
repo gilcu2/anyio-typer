@@ -3,7 +3,6 @@ import subprocess
 import sys
 from pathlib import Path
 
-from docs_src.commands.index import tutorial001 as mod
 import pytest
 
 from docs_src.asynchronous import tutorial001 as async_mod
